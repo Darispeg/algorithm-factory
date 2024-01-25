@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace TestAlgoritmos
+namespace WebService
 {
     public class Program
     {

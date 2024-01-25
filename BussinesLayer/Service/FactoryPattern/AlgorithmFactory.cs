@@ -1,4 +1,4 @@
-﻿using BussinesLatey.Service.FactoryPattern;
+﻿using BussinesLayer.Service.FactoryPattern;
 
 using BussinesLayer.Utils;
 using System;
@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.Text;
 using static BussinesLayer.Utils.DefaultData;
 
-namespace BussinesLatey.Service
+namespace BussinesLayer.Service
 {
     /** PATRON FACTORY **/
     public class AlgorithmFactory

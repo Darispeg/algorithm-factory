@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BussinesLatey.Service.FactoryPattern
+namespace BussinesLayer.Service.FactoryPattern
 {
     public interface IAlgorithmType
     {

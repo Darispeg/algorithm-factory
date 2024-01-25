@@ -9,7 +9,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace BussinesLatey
+namespace BussinesLayer
 {
     public static class DependencyInjection
     {

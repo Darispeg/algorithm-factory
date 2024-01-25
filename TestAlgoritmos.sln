@@ -3,12 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.34031.81
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestAlgoritmos", "TestAlgoritmos\TestAlgoritmos.csproj", "{24DAC893-1AF1-445D-B9F5-3104D7F4BD84}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebService", "WebService\WebService.csproj", "{24DAC893-1AF1-445D-B9F5-3104D7F4BD84}"
 	ProjectSection(ProjectDependencies) = postProject
 		{20099484-B4BC-4B03-A60C-3CB74DC68396} = {20099484-B4BC-4B03-A60C-3CB74DC68396}
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BussinesLayer", "BussinesLatey\BussinesLayer.csproj", "{20099484-B4BC-4B03-A60C-3CB74DC68396}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BussinesLayer", "BussinesLayer\BussinesLayer.csproj", "{20099484-B4BC-4B03-A60C-3CB74DC68396}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataLayer", "DataLayer\DataLayer.csproj", "{58F6C62C-8104-4E1F-B968-1E30A3BB24EC}"
 EndProject

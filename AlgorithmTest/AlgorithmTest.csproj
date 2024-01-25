@@ -20,7 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\BussinesLatey\BussinesLayer.csproj" />
+    <ProjectReference Include="..\BussinesLayer\BussinesLayer.csproj" />
   </ItemGroup>
 
 </Project>

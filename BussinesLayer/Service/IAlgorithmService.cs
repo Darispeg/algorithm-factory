@@ -10,5 +10,6 @@ namespace BussinesLayer.Service
     {
         Task<string> StringSplitting(RequestSolution input);
         Task<List<int>> oddCalculator(RequestSolution input);
+        Task<List<Solution>> getAllSolutions();
     }
 }

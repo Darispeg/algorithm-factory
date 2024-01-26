@@ -69,5 +69,21 @@ namespace BussinesLayer.Service
 
             return result.Split(',').Select(int.Parse).ToList();
         }
+
+        public async Task<List<Solution>> getAllSolutions()
+        {
+            var result = await _requestRepository.AllAsync();
+
+            var solutions = result.Select(s => new Solution
+            {
+                User = s.User,
+                InputRequest = s.InputRequest,
+                DateRequest = s.DateRequest,
+                Response = s.Response,
+                DateResponse = s.DateResponse
+            }).ToList();
+
+            return solutions;
+        }
     }
 }
